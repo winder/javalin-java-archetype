@@ -28,7 +28,7 @@
             <configuration>
               <transformers>
                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                  <mainClass>com.willwinder.javalin.HelloWorld</mainClass>
+                  <mainClass>${groupId}.HelloWorld</mainClass>
                 </transformer>
               </transformers>
             </configuration>
